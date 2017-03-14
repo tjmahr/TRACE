@@ -1,0 +1,158 @@
+
+TRACE tape
+==========
+
+The top-level directory contains a Makefile plus .c and .h files
+needed to compile trace.  After the tape contents are loaded onto
+disk you should be able to say "make trace" and all the compiles and
+loading will be done automatically.  If you say "make trace >& errs"
+and are running under the CSH the compile errors will be collected
+and diverted to file "errs"; you can mail this to me if there are
+serious problems.
+
+If you are not running under Unix and/or do not have the "make" program 
+you can compile by giving the command:
+     cc -o trace trace.c initialize.c interact.c command.c pwt.c util1.c util2.c util3.c fetvals.c -lm
+
+(the -lm loads in the math library; with some non-Unix C compilers this is not
+necessary).  This will compile all the .c modules, link them together, 
+and put the executable on a file called "trace"
+
+
+The following sudirectories are also present on the tape.
+
+	i/		sample input files;  these contain
+			3 numbers per line: phoneme - rate - duration
+	l/		sample lexicons;  one word per line.  Each
+			word may optionally have a word frequency
+			on the same line; if you use freq. you must
+			set the wfreq constant to a non-0 value.
+	s/		sample scripts; with these you can say
+				% trace < s/script 
+			and have all the trace commands read in 
+			automatically 
+	p/		parameter files.
+
+Input, lexicon, and parameter files can either be read in while in
+trace (with the "in", "lex", or "param" commands), or specified on
+the command line, e.g., "trace -l l/phonolex -p p/p1 -i i/kargo";
+blanks are necessary between arguments.
+
+Tape contents:
+=============
+Makefile
+README
+command.c
+defs.h
+fetvals.c
+initialize.c
+interact.c
+ofetvals.c
+pwt.c
+trace.c
+ttydisp.c
+util1.c
+util2.c
+util3.c
+
+subdirectories:
+    i:
+	2n.perm
+	2noise
+	Bul
+	But
+	barti
+	kargo
+	liB
+	nnoise
+	noise
+	paba
+	parti
+	partu
+	popouri
+	saba
+	singwrds
+	singwrds.dis
+	singwrds.el
+	stisar
+	su
+	tt
+	twowrds
+	twowrds.n
+	twowrds.noise
+	uB
+	up
+
+    l:
+	msyl
+	phonolex
+	s.4
+	saSa
+	slex
+	stisar
+	winw1
+	winw2
+	winw3
+
+    o:
+	SiS^t^baks
+	SiSat^kap
+	b+pist
+	b+pl^g
+	b+prid
+	bart
+	barti
+	bl^d+t
+	bl^g
+	brid
+	d+tark
+	display
+	fl+ri
+	iinnoise
+	karp^tbaks
+	massaro
+	p+bart
+	p^tbaks
+	paba.out
+	parti
+	pl^g
+	pl^g+k
+	pop
+	pop.o
+	prid
+	saba.out
+	singwrds
+	singwrds.el
+	sl+ri
+	starbust
+	start^lbust
+	t+pluli
+	targ^t+d
+	tl+ri
+	tr^b^l
+	tr^g^s
+	vl+ri
+	winw1.out
+	winw2.out
+	winw3.out
+	xxxbitxxx
+
+    p:
+	nnp
+	np
+	p
+	p1
+	screenp
+
+    s:
+	winw1
+	winw2
+	winw3
+--------------------
+Jeff Elman
+Center for Research in Language
+University of California, San Diego
+La Jolla, CA 92093-0526
+voice:  (619) 534-1147
+fax:  (619) 534-6788
+email: elman@crl.ucsd.edu / elman@ucsd.bitnet

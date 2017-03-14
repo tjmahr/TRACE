@@ -1,0 +1,40 @@
+of o/pop
+pfreq 90
+nreps 90
+test ^ ^
+test ^dapt ^dapt
+test art art
+test ^slip ^slip
+test b^b^l b^b^l
+test klak klak
+test l^ki l^ki
+test parti parti
+test pi pi
+test p^lis p^lis
+test prab^b^l prab^b^l
+test pradus pradus
+test rak rak
+test spark spark
+test stak stak
+test stup^d stup^d
+test targ^t targ^t
+test tu tu
+test tr^b^l tr^b^l
+test ^s ^s
+test ^br^p ^br^pt.el
+test ^dat ^dapt.el
+test ar^st art^st.el
+test ba^l bat^l.el
+test ^dr^pt ^br^pt.dis
+test ^d^pt ^dapt.dis
+test ^dult ^d^lt.dis
+test ^bart ^part.dis
+test ard^st art^st.dis
+test ^srip ^slip.dis
+test bad^l bat^l.dis
+test b^p^l b^b^l.dis
+test karb^t karp^t.dis
+test karig kalig.dis
+test k^b^l k^p^l.dis
+q
+q

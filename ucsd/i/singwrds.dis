@@ -1,0 +1,60 @@
+of o/singwrds.dis
+pfreq 90
+nreps 90
+test ^dr^pt ^br^pt
+test ^d^pt ^dapt
+test ^dult ^d^lt
+test ^bart ^part
+test ard^st art^st
+test ^srip ^slip
+test bad^l bat^l
+test b^p^l b^b^l
+test karb^t karp^t
+test karig kalig
+test k^b^l k^p^l
+test krus^l kruS^l
+test klu^l kru^l
+test d^p^l d^b^l
+test gitar g^tar
+test l^gS^ri l^kS^ri
+test lik^l lig^l
+test pars^l parS^l
+test pardli partli
+test pardi parti
+test pib^l pip^l
+test p^k^t pak^t
+test p^ris p^lis
+test bal^si pal^si
+test pus^b^l pas^b^l
+test paS^bli pas^bli
+test brist prist
+test pr^b^b^l prab^b^l
+test plab^bli prab^bli
+test bradus pradus
+test prat^kt prad^kt
+test prakr^s pragr^s
+test r^k^t rak^t
+test r^k^d r^g^d
+test ras^l r^s^l
+test sigr^t sikr^t
+test sul^d sal^d
+test sp^rk spark
+test Start start
+test starp^l start^l
+test strip strit
+test struk str^k
+test spr^g^l str^g^l
+test st^tid st^did
+test studi st^di
+test st^p^d stup^d
+test s^pst^tut s^bst^tut
+test s^d^l s^t^l
+test s^gsid s^ksid
+test sud^b^l sut^b^l
+test tark^t targ^t
+test tridi triti
+test dr^b^l tr^b^l
+test tr^sk tr^st
+test trusti tr^sti
+q
+q
